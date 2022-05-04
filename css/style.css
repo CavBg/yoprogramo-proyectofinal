@@ -14,7 +14,7 @@ body{
 	/* background:url(../images/bb.jpg) bottom; */
 	background-color: black;
 	width:100%;
-	min-height:300px;
+	min-height:100px;
 	display:block;
 	background-size:cover;
 	position:relative;
@@ -83,6 +83,7 @@ span.logo-inicial{
 		margin: 10px auto;
 		-webkit-appearance: none;
 		float: right;
+		border: none;
 }
 
 .btn-ingreso {
@@ -369,7 +370,7 @@ h4.set{
 	display: block;
 	position: relative;
 	margin: 0 auto;
-	background: transparent url(../images/sgarbi.jpg) no-repeat center center;
+	background: transparent url(../images/jsgarbii.jpg) no-repeat center center;
 	border-radius: 20px;
 	
 }
@@ -658,3 +659,46 @@ circle li{
 .ca-icon:hover .sear-ic ,.ca-icon1:hover .sear-ic,.ca-icon2:hover .sear-ic,.ca-icon3:hover .sear-ic,.ca-icon4:hover .sear-ic,.ca-icon5:hover .sear-ic,.ca-icon6:hover .sear-ic,.ca-icon7:hover .sear-ic{
 	display:block;
 }
+
+/* Call To Action Section
+--------------------------------*/
+#call-to-action {
+	overflow: hidden;
+	/* background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../images/bb.jpg) fixed center center; */
+	background: linear-gradient(rgba(9, 32, 32, 0.65), rgba(29, 205, 89, 0.2)), url(../images/bb.jpg) fixed center center;
+	background-size: cover;
+	/* padding: 80px 0; */
+  }
+  #call-to-action .cta-title {
+	color: #fff;
+	font-size: 28px;
+	font-weight: 700;
+  }
+  #call-to-action .cta-text {
+	color: #fff;
+  }
+  @media (min-width: 769px) {
+	#call-to-action .cta-btn-container {
+	  display: flex;
+	  align-items: center;
+	  justify-content: flex-end;
+	}
+  }
+  #call-to-action .cta-btn {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 8px 30px;
+	border-radius: 25px;
+	transition: background 0.5s;
+	margin: 10px;
+	border: 2px solid #fff;
+	color: #fff;
+  }
+  #call-to-action .cta-btn:hover {
+	background: #1dc8cd;
+	border: 2px solid #1dc8cd;
+  }
+  
